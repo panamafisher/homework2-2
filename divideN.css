@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(82, 156, 114);
+  color: #282B28;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+button {
+  padding: 5px 20px;
+  background-color: rgb(39, 114, 29);
+  border-style: none;
+  color: #282b28;
+}
+input{
+  height: 20px;
+}
