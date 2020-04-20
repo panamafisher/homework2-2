@@ -31,8 +31,19 @@ calcNButton.onclick =()=>{
 }
 //TODO アルゴリズムの実装
 function algoresult(N){
-  
-  return N+1;
+  var z=Array();
+  let j = 0;
+  if(N===1){
+    return `(1,1)`;
+  }else{
+    for(let i=1; i< N+1; i++){
+        if(N%i ===0){
+          z[j] =`(${i},${N/i})`;
+          j++;
+        }
+    }
+  }  
+  return z;
 }
 
 // enter で診断
